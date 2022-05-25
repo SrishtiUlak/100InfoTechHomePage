@@ -1,0 +1,165 @@
+@media all and (max-width: 600px) {
+    h1 {
+        font-size: 28px !important;
+    }
+
+    h3 {
+        font-size: 20px !important;
+    }
+
+    h2 {
+        font-size: 24px !important;
+    }
+
+    h5 {
+        font-size: 15px !important;
+    }
+
+    p {
+        font-size: 13px !important;
+    }
+
+    .hero-contain a img {
+        height: 18px;
+        width: 18px;
+    }
+
+    .navbar .logo {
+        height: 50px;
+    }
+
+    section {
+        margin: 3rem 0;
+    }
+
+    .container {
+
+        width: 100%;
+    }
+
+    .hero-contain {
+        flex-direction: column;
+    }
+
+    .hero-section {
+        border-radius: 0px;
+        margin: 0;
+        background: var(--bs-primary-color);
+        height: max-content;
+
+    }
+
+    .tech-content .right-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .services-content .top-container .left-container h2 {
+        margin: 0;
+        text-align: center;
+    }
+
+    .flexColumn {
+        flex-direction: column-reverse;
+    }
+
+    .tech-content h2,
+    .tech-content h7,
+    .services-content .top-container .left-container h7 {
+        text-align: center;
+    }
+
+
+    .contact-content .right-container form input {
+        width: 100%;
+    }
+
+    .contact-content .right-container .btn a {
+        width: max-content;
+    }
+
+    .hero-contain {
+        padding: 2rem;
+    }
+
+    .hero-contain .right-container {
+        height: 10rem;
+        width: auto;
+    }
+
+    .tech-content .right-container .box {
+        width: fit-content;
+    }
+
+    .bottom-container {
+        gap: 2rem;
+    }
+
+    .bottom-container .box img {
+        height: 50px;
+        width: auto;
+    }
+
+    .navbar {
+        position: relative;
+    }
+
+    .navbar .sublinks {
+        left: -500px;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: 999;
+        background-color: rgba(0, 0, 0, 0.404);
+
+    }
+
+    .navbar .btn {
+        margin-left: auto;
+    }
+
+    .navbar .sublinks ul {
+
+        background-color: var(--bs-primary-color);
+
+        height: 100vh;
+        width: 15rem;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 2rem;
+    }
+
+    .navbar .sublinks ul li a {
+        color: var(--bs-primary-white);
+    }
+
+
+    .grid-2,
+    .grid-3,
+    .grid-4 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .movement-content .top-container p {
+        width: 100%;
+    }
+
+    .RecentProject,
+    .contact-section {
+        height: max-content;
+    }
+
+    .contact-content,
+    .tech-content {
+        margin: 0;
+    }
+
+    .bottom-container .box .brandDigitalizecard {
+        width: 100%;
+    }
+
+    .movement-section>div:nth-child(1),
+    .movement-section>div:nth-child(2),
+    .movement-section>div:nth-child(3) {
+        display: none;
+    }
+}
